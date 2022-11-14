@@ -1,1 +1,130 @@
 /* css */
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'LibreBas kerville';
+    src: url('../fonts/LibreBaskerville-Regular.ttf');
+}
+
+/* Banner Start */
+
+.banner {
+    background-image: url('../images/bannerImage_files/banner1.jpg');
+    width: 100%;
+    height: 100vh;
+}
+
+.navigation {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+a.navbar-brand {
+    font-size: 2vmax;
+}
+a.navbar-brand > span.passion {
+    font-weight: 600;
+}
+
+button.signIn {
+    color: #040404;
+    font-size: 14px;
+    background: white;
+    padding: 2px 12px;
+    margin: 0 5px;
+}
+.banner--Caption {
+    position: relative;
+    top: 20vmin;
+}
+.caption-Heading,
+.caption-Text {
+    color: white;
+    padding: 6px 0;
+}
+.JoinUs {
+    background-color: #f9506f;
+    border: 0;
+    padding: 12px 25px;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+/* Banner End */
+
+
+/****** footer start  ******/
+.footer {
+    width: 100%;
+    float: left;
+    background-color: #2c3240;
+    padding: 50px 0;
+}
+.skillKaroText {
+    padding-bottom: 15px;
+}
+.skillKaroText:hover > a {
+    color: white;
+}
+.skillKaroText > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+.skillKaroText > a  span {
+    font-weight: 600;
+}
+p.skillKaroPara {
+    color: #ddd6de;
+}
+.contactUs {
+    background-color: #f9506f;
+    border: 0;
+    padding: 12px 25px;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+/* QUICK LINK START */
+.foo-Navbar {
+    list-style: none;
+}
+.foo-Navbar .foo-nav-item {
+    display: table;
+    padding: 6px 0;
+}
+.foo-Navbar .foo-navLink {
+    color: #ddd6de;
+    text-decoration: none;
+}
+/* QUICK LINK END */
+input.foo--emailAddress {
+    background-color: #272d3a;
+    border: 0;
+}
+span.input-group-text {
+    background-color: #f9506f;
+    border: 0;
+    color: white;
+}
+i.fa-telegram {
+    cursor: pointer;
+}
+/* ICONS */
+.icons i.fa {
+    color: white;
+    font-size: 18px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.icons i.fa:nth-child(2n) {
+    padding: 0 8px;
+}
+/****** footer end  ******/
